@@ -1,0 +1,259 @@
+[
+    {
+        "id" : 1001,
+        "name": "Amethyst",
+        "category": "Batu",
+        "image" : "amethyst",
+        "description": "Amethyst stone atau batu kecubung juga menjadi batu kelahiran di bulan Februari. Batu kecubung  atau amethyst adalah batu mulia berwarna ungu sampai merah muda, yang merupakan Mineral dari kuarsa. Batu kecubung umumnya memiliki corak yang diakibatkan oleh tekanan berjuta tahun didalam bumi. Memiliki tingkat kekerasan yang agak rendah yaitu 7 Mohs, sehingga sering disebut sebagai batu permata kelas II. Meski demikian telah sejak lama para anggota kerajaan mempergunakan kecubung untuk perhiasannya."
+    },
+    {
+        "id" : 1002,
+        "name": "Batu Andesit",
+        "category": "Batu",
+        "image" : "andesit",
+        
+        "description" : "Andesit adalah suatu jenis batuan beku vulkanik, ekstrusif, komposisi menengah, dengan tekstur afanitikhingga porfiritik. Dalam pengertian umum, Andesit adalah jenis peralihan antara basal dan dasit,\nBatu andesit banyak digunakan dalam bangunan-bangunan megalitik, candi dan piramida. Begitu juga perkakas-perkakas dari zaman prasejarah banyak memakai material ini, misalnya: sarkofagus, punden berundak, lumpang batu, meja batu, arca dll."
+    },
+    {
+        "id" : 1004,
+        "name" : "Batu Azurite",
+        "category": "Batu",
+        "image" : "azurite",
+        "description" : "Azurit adalah Mineral yang masuk dalam kelompok Mineral tembaga karbonat hidroksida dengan rumus kimia Cu3(CO3)2(OH)2. Mineral ini terkenal karena karakter warna indahnya yang berwarna biru hingga ungu atau sering diistilahkan sebagai \"si biru\"."
+    },
+    {
+        "id" : 1005,
+        "name" : "Batu Basal",
+        "category": "Batu",
+        "image" : "basal",
+        
+        "description" : "Basalt adalah batuan beku yang ekstrusif, yang dibentuk dari solidifikasi magma yang terjadi di permukaan Bumi. Biasanya basalt berwarna abu-abu atau hitam, karena pembekuannya cepat di permukaan bumi. Basalt juga terbentuk di Bulan, Mars, Venus, dan bahkan di asteroid Vesta."
+    },
+    {
+        "id" : 1006,
+        "name" : "Batu Apung",
+        "category": "Batu",
+        "image" : "batuApung",
+        
+        "description" : "Batu apung (pumice) adalah batuan dengan ciri ciri utama berwarna terang serta sangat berpori. Batu apung termasuk jenis batuan beku yang terbentuk dari hasil letusan eksplosif gunung berapi. Batuan ini biasanya disebut juga sebagai batuan gelas vulkanik silikat karena mengandung buih yang berasal dari gelembung gas berdinding gelas."
+    },
+    {
+        "id" : 1007,
+        "name" : "Batu Bara",
+        "category": "Batu",
+        "image" : "batuBara",
+        
+        "description" : "Batu bara adalah jenis batuan sedimen, dengan kandungan karbon sebagai Mineral utama dan juga hidrogen, belerang serta oksigen dalam Mineral sekundernya. Tingginya kandungan senyawa ini membuat batu bara mudah terbakar. Batu bara ini merupakan batuan fosil yang telah terbentuk secara alami lebih dari 340 juta tahun yang lalu."
+    },
+    {
+        "id" : 1008,
+        "name" : "Batu Gamping",
+        "category": "Batu",
+        "image" : "batuGamping",
+        
+        "description" : "Batu gamping adalah batuan sedimen yang utamanya tersusun oleh kalsium karbonat (CaCO3) dalam bentuk Mineral kalsit. Di Indonesia, batu gamping sering disebut juga dengan istilah batu kapur, sedangkan istilah luarnya biasa disebut \"limestone\". Batugamping paling sering terbentuk di perairan laut dangkal."
+    },
+    {
+        "id" : 1010,
+        "name" : "Batu Pasir",
+        "category": "Batu",
+        "image" : "batuPasir",
+        
+        "description" : "Batu pasir adalah salah satu jenis batuan sedimen yang paling umum dan banyak ditemukan dalam cekungan sedimen di seluruh dunia. Batu pasir sering ditambang untuk digunakan sebagai bahan konstruksi. Di bawah permukaan, batu pasir sering berfungsi sebagai akuifer air tanah untuk atau sebagai reservoir gas dan minyak bumi."
+    },
+    {
+        "id" : 1011,
+        "name" : "Batu Sabak",
+        "category": "Batu",
+        "image" : "batuSabak",
+        
+        "description" : "Batu sabak adalah salah satu contoh batuan metamorf berbutir halus yang berasal dari perubahan serpih atau batu lumpur dengan metamorfisme regional tingkat rendah. Batuan ini biasa disebut \"slate\" dan sering digunakan atau dimanfaatkan sebagai atap rumah serta interior lantai (ubin) karena daya tahan dan tampilannya yang menarik."
+    },
+    {
+        "id" : 1012,
+        "name" : "Belerang",
+        "category": "Batu",
+        "image" : "belerang",
+        
+        "description" : "Belerang atau sulfur adalah unsur non-logam yang bentuk aslinya adalah zat padat kristalin kuning. Secara alami, belerang dapat ditemukan sebagai unsur murni atau Mineral pada gunung berapi. Belerang merupakan sumberdaya yang banyak dimanfaatkan oleh manusia sebagai bahan baku asam sulfat. Selain itu, belerang umum digunakan dalam korek api, bubuk mesiu, insektisida, fungisida, dan sebagainya. Belerang yang murni tidak berbau. Bau yang muncul sebenarnya berasal dari banyak senyawanya"
+    },
+    {
+        "id" : 1013,
+        "name" : "Bijih Tembaga",
+        "category": "Batu",
+        "image" : "bijihTembaga",
+        
+        "description" : "Tembaga adalah jenis logam utama dan salah satu elemen paling penting yang banyak digunakan oleh manusia. Logam ini sudah dikenal sejak dahulu, bahkan tembaga termasuk salah satu jenis logam tertua yang telah ditemukan sejak 10.000 tahun yang lalu. Penggunaan tembaga sebagai bahan campuran perunggu pun telah dilakukan setidaknya mulai tahun 3000 sebelum Masehi."
+    },
+    {
+        "id" : 1014,
+        "name" : "Bijih Timbal",
+        "category": "Batu",
+        "image" : "bijihTimbal",
+        
+        "description" : "Timbal adalah logam yang sangat berguna dengan berbagai kegunaan. Namun, itu beracun. Cukup untuk menghirup debu atau menelan partikel. Timbal akan digunakan lebih lama karena sifat industrinya yang tinggi seperti sifat lunak yang sangat baik dan ketahanan terhadap korosi."
+    },
+    {
+        "id" : 1017,
+        "name" : "Batu Dasit",
+        "category": "Batu",
+        "image" : "dasit",
+        
+        "description" : "Dasit adalah batuan beku berbutir halus yang biasanya berwarna terang. Seringkali hadir dalam tekstur porfiritik. Dasit ditemukan dalam aliran lava, kubah lava, dike, sill, dan pecahan-pecahan piroklastik. Batuan ini biasanya ditemukan di kerak benua di atas zona subduksi, dimana lempeng samudera yang relatif muda telah mengalami melting di bawahnya."
+    },
+    {
+        "id" : 1018,
+        "name" : "Batu Diabas",
+        "category": "Batu",
+        "image" : "diabas",
+        
+        "description" : "Diabas atau dolerit atau mikrogabbro adalah batuan mafik, holokristalin, dan subvulkanik yang setara dengan basaltvulkanik atau gabro plutonik. Diabas pada dike dan sill biasanya berwujut tubuh intrusif dangkal dan memperlihatkan butir - butir halus hingga aphanitic chilled margin dan dapat mengandung takilit (gelas mafik gelap)."
+    },
+    {
+        "id" : 1020,
+        "name" : "Batu Diorit",
+        "category": "Batu",
+        "image" : "diorit",
+        
+        "description" : "Batu diorit merupakan salah satu dari jenis batuan beku yang tersusun antara batu granit hingga batu gabro atau batu basalt. Batu diorit ini merupakan batuan hasil intrusi yang terjadi di kerak benua baik secara dike maupun sill. Batu diorit ini seringkali terbentuk di atas lempeng konvergen dimana subduksi lempeng samudera menyusup ke bawah lempeng benua. Batu diorit ini merupakan batuan beku yang kasar atau sedang. Batu diorit berwarna campuran antara warna abu- abu dan juga warna hitam dan seringkali memiliki corak tertentu yang nampak hitam putih."
+    },
+    {
+        "id" : 1021,
+        "name" : "Batu Dunit",
+        "category": "Batu",
+        "image" : "dunit",
+        "description" : "Dunit adalah batuan beku plutonik, komposisi ultramafik, dengan tekstur kasar atau phaneritic. Batuan beku ultramafic dikenal juga dengan ultrabasic. Kandungan silikanya rendah (kurang dari 45 persen) dan lebih banyak Mineral mafic (Mineral berwarna gelap kaya magnesium dan besi). Batuan ultramafic umumnya terbentuk di mantel bumi, dari kedalaman sekitar 12 mil (sekitar 20 kilometer) di bawah permukaan hingga setebal ratusan mil ke dalam perut bumi, muncul ke permukaan ketik lempeng tektonik bertumbukan di lempeng samudera, atau ketika bagian interior lempeng benua tipis dan merenggang."
+    },
+    {
+        "id" : 1022,
+        "name" : "Eklogit",
+        "category": "Batu",
+        "image" : "eklogit",
+        
+        "description" : "Eklog (/ˈɛklədʒaɪt/) adalah batuan metamorf terbentuk ketika mafic batuan beku mengalami tekanan tinggi. Eklogit terbentuk pada tekanan yang lebih besar daripada tekanan khas Kerak dari Bumi. Sebuah luar biasa padat rock, eclogite dapat memainkan peran penting dalam mengemudi konveksi di dalam Bumi yang padat."
+    },
+    {
+        "id" : 1023,
+        "name" : "Emerald",
+        "category": "Batu",
+        "image" : "emerald",
+        
+        "description" : "Batu emerald juga biasa disebut dengan batu zamrud. Emerald adalah adalah batu mulia yang memiliki warna hijau transparan. Warna hijaunya bervariasi, mulai muda sampai tua.Kandungan utama dalam emerald adalah beryl. Warna hijaunya disebabkan oleh kromium. Vanadium dan besi yang ada dalam kromium membuat emerald memiliki beragam zona warna."
+    },
+    {
+        "id" : 1024,
+        "name" : "Filit",
+        "category": "Batu",
+        "image" : "filit",
+        
+        "description" : "Filit adalah tipe batuan metamorf berfoliasi yang terbuat dari batusabak yang termetamorfosis lebih jauh dan menyebabkan mika putih berbutir sangat halus menjadi memiliki orientasi tertentu.Filit memiliki komposisi utama berupa kuarsa, serisit mika, dan klorit."
+    },
+    {
+        "id" : 1025,
+        "name" : "Fluorite",
+        "category": "Batu",
+        "image" : "fluorite",
+        
+        "description" : "Fluorite berasal dari \"fluo noun Latin\", yang artinya sungai atau aliran air. Dalam kata kerja bentuk ini fluor atau fluere, yang berarti mengalir. Mineral ini digunakan sebagai fluks dalam peleburan besi untuk mengurangi viskositas terak. "
+    },
+    {
+        "id" : 1026,
+        "name" : "Batu Gabro",
+        "category": "Batu",
+        "image" : "gabro",
+        
+        "description" : "Gabro adalah batuan beku intrusif, berwarna gelap, dan tersusun atas kristal-kristal Mineral yang berukuran kasar (coarse-grained). Batuan ini selalu berwarna hitam atau hijau gelap karena Mineral utamanya adalah plagioklas dan piroksen."
+    },
+    {
+        "id" : 1028,
+        "name" : "Gipsum",
+        "category": "Batu",
+        "image" : "gipsum",
+        
+        "description" : "Batu Gipsum atau Batuan Gipsum, ini merupakan hal yang keliru karena gipsum adalah sebuah Mineral, bukannya batuan. Keterdapatan gipsum di alam berupa Mineral hidrous (CaSO4 2H2O). Jenis batuan pembawa Mineral ini biasanya adalah satinspar, alabaster, gipsit, dan selenit."
+    },
+    {
+        "id" : 1029,
+        "name" : "Batu Granit",
+        "category": "Batu",
+        "image" : "granit",
+        
+        "description" : "Batu granit adalah batuan beku berwarna terang dengan butiran cukup besar dan terdiri dari feldspar dan kuarsa. Warnanya berbeda-beda, mulai dari merah, merah muda, abu-abu, atau putih tergantung pada kandungan Mineral batu tersebut. Kata “granit” sendiri berasal dari bahasa latin granum, berarti butiran. "
+    },
+    {
+        "id" : 1030,
+        "name" : "Batu Jasper",
+        "category": "Batu",
+        "image" : "jasper",
+        
+        "description" : "Jasper atau batu yusyib adalah salah satu jenis batu mulia yang termasuk keluarga dari batu Chalcedony. Batu Jasper ini memiliki tingkat kekerasan antara enam hingga tujuh skala Mohs. Pada umumnya batu Jasper tidak tembus cahaya (opaque). Batu Jsper ini terdiri dari beberapa jenis, di antara Jasper pancawarna,Jasper Merah darah, dan Jasper yang memiliki berbagai motif warna seperti( merah kebiruan, coklat, merah hitam serta ada yang berwarna abu abu)."
+    },
+    {
+        "id" : 1031,
+        "name" : "Kalsedon",
+        "category": "Batu",
+        "image" : "kalsedon",
+        
+        "description" : "Kalsedon atau kalsedoni adalah bentuk kriptokristalindari silika, terdiri dari Mineral kuarsa dan moganit yang saling bertumpuk.[2] Kuarsa dan moganit merupakan Mineral silika, tetapi kuarsa memiliki struktur trigonal sedangkan moganit bersifat monoklinik. Struktur kimia dari kalsedon adalah SiO2."
+    },
+    {
+        "id" : 1041,
+        "name" : "Gajah Biora",
+        "category": "Fossil",
+        "image" : "biora",
+        
+        "description" : "Gajah Bora adalah temuan yang spektakuler. Sekitar 85% foil dari satu individu gajah ini secara utuh ditemukan oleh tim ahli dari Museum Geologi. Gajah yang berjenis kelamin jantan dan memiliki tinggi sekitar empat meter, panjangnya lima meter, dan berat 6 - 8 ton ini hidup sekitar 165.000 tahun yang lalu, dan mati pada umur 49 tahun. Nama ilmiahnya adalah Elephas hysudrindicus, dan dianggap sebagai leluhur gajah Asia yang ada di Indonesia sekarang."
+    },
+    {
+        "id" : 1042,
+        "name" : "Tryrannousaurus",
+        "category": "Fossil",
+        "image" : "tRex",
+        
+        "description" : "Tyrannosaurus merupakan salah satu dinosaurus nonburung terakhir sebelum terjadinya peristiwa kepunahan Kapur–Paleogen. Dinosaurus karnivor ini hidup di sebuah benua yang dikenal dengan nama Laramidia, yang kini telah berubah menjadi Amerika Utara bagian barat. Tyrannosaurus jauh lebih tersebar daripada hewan-hewan Tyrannosauridae lainnya. "
+    },
+    {
+        "id" : 1043,
+        "name" : "Homo Erectus ",
+        "category": "Fossil",
+        "image" : "erectus",
+        "description" : "Homo erectus adalah jenis manusia yang telah punah dari genus Homo. Pakar anatomi asal Belanda, Eugene Dubois, pada tahun 1890-an menggambarkannya sebagai Pithecanthropus erectus atau \"Manusia Jawa\" berdasarkan fosil tempurung kepala dan tulang paha yang ditemukan timnya di Trinil, Ngawi, Jawa Timur."
+    },
+    {
+        "id" : 1044,
+        "name" : "Homo Sapien",
+        "category": "Fossil",
+        "image" : "sapiens",
+        "description" : "Homo sapiens, yang artinya manusia cerdas atau bijaksana. Homoe sapiens adalah satu-satunya spesies yang bertahan dalam genus Homo, genus yang lainnya telah punah."
+    },
+    {
+        "id" : 1045,
+        "name" : "Homo Wadjakensis ",
+        "category": "Fossil",
+        "image" : "wadjak",
+        "description" : "Homo wajakensis yang artinya manusia dari Wajak. Ini karena fosilnya ditemukan di Desa Wajak, Jawa Timur oleh van Rietschoten pada tahun 1889. Fosil Homo wajakensis ini merupakan fosil pertama yang ditemukan di daerah Asia"
+    },
+    {
+        "id" : 1046,
+        "name" : "Homo Soloensis ",
+        "category": "Fossil",
+        "image" : "soloensis",
+        "description" : "Homo soloensis, yang artinya manusia dari Solo. Fosil ini ditemukan oleh von Koenigswald, Ter Haar, dan Oppenoorth pada tahun 1931-1933 di Sangiran, Jawa Tengah."
+    },
+    {
+        "id" : 1047,
+        "name" : "Bubalus Palaeokerabau ",
+        "category": "Fossil",
+        "image" : "bubalus",
+        "description" : "Merupakan spesies kerbau yang sudah punah dan tinggal di pulau Jawa selama periode Pleistoscene"
+    },
+    {
+        "id": 1048,
+        "name": "Menoceras",
+        "category": "Fossil",
+        "image": "badak",
+        "description": "Menoceras (\"Tanduk Bulan Sabit\") adalah genus dari badak kecil endemik yang punah di sebagian besar Amerika Utara bagian selatan dan tersebar sejauh selatan hingga Panama selama zaman Miosen awal. Itu hidup dari sekitar 30,7-19,7 Ma, ada selama sekitar 11 juta tahun."
+    }
+       
+    
+]

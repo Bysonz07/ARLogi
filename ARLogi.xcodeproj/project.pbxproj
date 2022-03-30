@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF76EF7527A8B9F3004DAE48 /* AVContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76EF7427A8B9F3004DAE48 /* AVContainerView.swift */; };
+		BF7961B427AB42270012DD45 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7961B327AB42270012DD45 /* SceneManager.swift */; };
+		BF9A673027A7A882005DC756 /* dasit.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A670227A7A882005DC756 /* dasit.usdz */; };
+		BF9A673127A7A882005DC756 /* batuApung.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A670327A7A882005DC756 /* batuApung.usdz */; };
+		BF9A673427A7A882005DC756 /* amethyst.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A670627A7A882005DC756 /* amethyst.usdz */; };
+		BF9A673727A7A882005DC756 /* andesit.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A670927A7A882005DC756 /* andesit.usdz */; };
+		BF9A673927A7A882005DC756 /* belerang.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A670B27A7A882005DC756 /* belerang.usdz */; };
+		BF9A673B27A7A882005DC756 /* basal.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A670D27A7A882005DC756 /* basal.usdz */; };
+		BF9A673E27A7A882005DC756 /* azurite.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A671027A7A882005DC756 /* azurite.usdz */; };
+		BF9A674427A7A882005DC756 /* ncs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF9A671727A7A882005DC756 /* ncs.mp3 */; };
+		BF9A674527A7A882005DC756 /* dreamer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF9A671827A7A882005DC756 /* dreamer.mp3 */; };
+		BF9A674627A7A882005DC756 /* jungleDrum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF9A671927A7A882005DC756 /* jungleDrum.mp3 */; };
+		BF9A674727A7A882005DC756 /* forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF9A671A27A7A882005DC756 /* forest.mp3 */; };
+		BF9A674A27A7A882005DC756 /* badak.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A671E27A7A882005DC756 /* badak.usdz */; };
+		BF9A674E27A7A883005DC756 /* biora.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A672227A7A882005DC756 /* biora.usdz */; };
+		BF9A674F27A7A883005DC756 /* tRex.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A672327A7A882005DC756 /* tRex.usdz */; };
+		BF9A675027A7A883005DC756 /* bubalus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF9A672427A7A882005DC756 /* bubalus.usdz */; };
+		BF9A675627A7A897005DC756 /* Scene3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A675527A7A897005DC756 /* Scene3D.swift */; };
+		BF9A675927A7A8F4005DC756 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = BF9A675827A7A8F4005DC756 /* FocusEntity */; };
+		BF9A676127A7A921005DC756 /* ModelBatuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A675C27A7A921005DC756 /* ModelBatuData.swift */; };
+		BF9A676227A7A921005DC756 /* dataBatu.json in Resources */ = {isa = PBXBuildFile; fileRef = BF9A675D27A7A921005DC756 /* dataBatu.json */; };
+		BF9A676327A7A921005DC756 /* Koleksi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A675E27A7A921005DC756 /* Koleksi.swift */; };
+		BFF2002127A78E310093DC37 /* ARLogiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2002027A78E310093DC37 /* ARLogiApp.swift */; };
+		BFF2002327A78E310093DC37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2002227A78E310093DC37 /* ContentView.swift */; };
+		BFF2002527A78E320093DC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF2002427A78E320093DC37 /* Assets.xcassets */; };
+		BFF2002827A78E320093DC37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF2002727A78E320093DC37 /* Preview Assets.xcassets */; };
+		BFF2003227A78E330093DC37 /* ARLogiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2003127A78E330093DC37 /* ARLogiTests.swift */; };
+		BFF2003C27A78E330093DC37 /* ARLogiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2003B27A78E330093DC37 /* ARLogiUITests.swift */; };
+		BFF2003E27A78E330093DC37 /* ARLogiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2003D27A78E330093DC37 /* ARLogiUITestsLaunchTests.swift */; };
+		BFF2005C27A796CD0093DC37 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2004C27A796CD0093DC37 /* CustomARView.swift */; };
+		BFF2005D27A796CD0093DC37 /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2004D27A796CD0093DC37 /* SessionSettings.swift */; };
+		BFF2005E27A796CD0093DC37 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2004E27A796CD0093DC37 /* ARViewContainer.swift */; };
+		BFF2005F27A796CD0093DC37 /* DeletionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2004F27A796CD0093DC37 /* DeletionManager.swift */; };
+		BFF2006027A796CD0093DC37 /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005027A796CD0093DC37 /* PlacementSettings.swift */; };
+		BFF2006127A796CD0093DC37 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005227A796CD0093DC37 /* SettingsView.swift */; };
+		BFF2006227A796CD0093DC37 /* ModelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005427A796CD0093DC37 /* ModelSettings.swift */; };
+		BFF2006327A796CD0093DC37 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005527A796CD0093DC37 /* Model.swift */; };
+		BFF2006427A796CD0093DC37 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005727A796CD0093DC37 /* BrowseView.swift */; };
+		BFF2006527A796CD0093DC37 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005827A796CD0093DC37 /* PlacementView.swift */; };
+		BFF2006627A796CD0093DC37 /* DeletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005927A796CD0093DC37 /* DeletionView.swift */; };
+		BFF2006727A796CD0093DC37 /* CollectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005A27A796CD0093DC37 /* CollectionDetailView.swift */; };
+		BFF2006827A796CD0093DC37 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2005B27A796CD0093DC37 /* ControlView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF2002E27A78E330093DC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF2001527A78E310093DC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF2001C27A78E310093DC37;
+			remoteInfo = ARLogi;
+		};
+		BFF2003827A78E330093DC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF2001527A78E310093DC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF2001C27A78E310093DC37;
+			remoteInfo = ARLogi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF76EF7427A8B9F3004DAE48 /* AVContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVContainerView.swift; sourceTree = "<group>"; };
+		BF7961B327AB42270012DD45 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		BF9A670227A7A882005DC756 /* dasit.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = dasit.usdz; sourceTree = "<group>"; };
+		BF9A670327A7A882005DC756 /* batuApung.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = batuApung.usdz; sourceTree = "<group>"; };
+		BF9A670627A7A882005DC756 /* amethyst.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = amethyst.usdz; sourceTree = "<group>"; };
+		BF9A670927A7A882005DC756 /* andesit.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = andesit.usdz; sourceTree = "<group>"; };
+		BF9A670B27A7A882005DC756 /* belerang.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = belerang.usdz; sourceTree = "<group>"; };
+		BF9A670D27A7A882005DC756 /* basal.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = basal.usdz; sourceTree = "<group>"; };
+		BF9A671027A7A882005DC756 /* azurite.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = azurite.usdz; sourceTree = "<group>"; };
+		BF9A671727A7A882005DC756 /* ncs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ncs.mp3; sourceTree = "<group>"; };
+		BF9A671827A7A882005DC756 /* dreamer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dreamer.mp3; sourceTree = "<group>"; };
+		BF9A671927A7A882005DC756 /* jungleDrum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jungleDrum.mp3; sourceTree = "<group>"; };
+		BF9A671A27A7A882005DC756 /* forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forest.mp3; sourceTree = "<group>"; };
+		BF9A671E27A7A882005DC756 /* badak.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = badak.usdz; sourceTree = "<group>"; };
+		BF9A672227A7A882005DC756 /* biora.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = biora.usdz; sourceTree = "<group>"; };
+		BF9A672327A7A882005DC756 /* tRex.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tRex.usdz; sourceTree = "<group>"; };
+		BF9A672427A7A882005DC756 /* bubalus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = bubalus.usdz; sourceTree = "<group>"; };
+		BF9A675527A7A897005DC756 /* Scene3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene3D.swift; sourceTree = "<group>"; };
+		BF9A675C27A7A921005DC756 /* ModelBatuData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelBatuData.swift; sourceTree = "<group>"; };
+		BF9A675D27A7A921005DC756 /* dataBatu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataBatu.json; sourceTree = "<group>"; };
+		BF9A675E27A7A921005DC756 /* Koleksi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Koleksi.swift; sourceTree = "<group>"; };
+		BFF2001D27A78E310093DC37 /* ARLogi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARLogi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF2002027A78E310093DC37 /* ARLogiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLogiApp.swift; sourceTree = "<group>"; };
+		BFF2002227A78E310093DC37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFF2002427A78E320093DC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF2002727A78E320093DC37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFF2002D27A78E330093DC37 /* ARLogiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARLogiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF2003127A78E330093DC37 /* ARLogiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLogiTests.swift; sourceTree = "<group>"; };
+		BFF2003727A78E330093DC37 /* ARLogiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARLogiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF2003B27A78E330093DC37 /* ARLogiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLogiUITests.swift; sourceTree = "<group>"; };
+		BFF2003D27A78E330093DC37 /* ARLogiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLogiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFF2004C27A796CD0093DC37 /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		BFF2004D27A796CD0093DC37 /* SessionSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		BFF2004E27A796CD0093DC37 /* ARViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		BFF2004F27A796CD0093DC37 /* DeletionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeletionManager.swift; sourceTree = "<group>"; };
+		BFF2005027A796CD0093DC37 /* PlacementSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		BFF2005227A796CD0093DC37 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BFF2005427A796CD0093DC37 /* ModelSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelSettings.swift; sourceTree = "<group>"; };
+		BFF2005527A796CD0093DC37 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BFF2005727A796CD0093DC37 /* BrowseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		BFF2005827A796CD0093DC37 /* PlacementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		BFF2005927A796CD0093DC37 /* DeletionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeletionView.swift; sourceTree = "<group>"; };
+		BFF2005A27A796CD0093DC37 /* CollectionDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDetailView.swift; sourceTree = "<group>"; };
+		BFF2005B27A796CD0093DC37 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF2001A27A78E310093DC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9A675927A7A8F4005DC756 /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2002A27A78E330093DC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2003427A78E330093DC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9A66F927A7A882005DC756 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A66FA27A7A882005DC756 /* Batu */,
+				BF9A671627A7A882005DC756 /* Music */,
+				BF9A671D27A7A882005DC756 /* Fossil Renamed */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		BF9A66FA27A7A882005DC756 /* Batu */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A670627A7A882005DC756 /* amethyst.usdz */,
+				BF9A670927A7A882005DC756 /* andesit.usdz */,
+				BF9A671027A7A882005DC756 /* azurite.usdz */,
+				BF9A670D27A7A882005DC756 /* basal.usdz */,
+				BF9A670327A7A882005DC756 /* batuApung.usdz */,
+				BF9A670B27A7A882005DC756 /* belerang.usdz */,
+				BF9A670227A7A882005DC756 /* dasit.usdz */,
+			);
+			path = Batu;
+			sourceTree = "<group>";
+		};
+		BF9A671627A7A882005DC756 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A671727A7A882005DC756 /* ncs.mp3 */,
+				BF9A671827A7A882005DC756 /* dreamer.mp3 */,
+				BF9A671927A7A882005DC756 /* jungleDrum.mp3 */,
+				BF9A671A27A7A882005DC756 /* forest.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		BF9A671D27A7A882005DC756 /* Fossil Renamed */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A671E27A7A882005DC756 /* badak.usdz */,
+				BF9A672227A7A882005DC756 /* biora.usdz */,
+				BF9A672327A7A882005DC756 /* tRex.usdz */,
+				BF9A672427A7A882005DC756 /* bubalus.usdz */,
+			);
+			path = "Fossil Renamed";
+			sourceTree = "<group>";
+		};
+		BF9A675A27A7A921005DC756 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2005527A796CD0093DC37 /* Model.swift */,
+				BF9A675C27A7A921005DC756 /* ModelBatuData.swift */,
+				BF9A675D27A7A921005DC756 /* dataBatu.json */,
+				BF9A675E27A7A921005DC756 /* Koleksi.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFF2001427A78E310093DC37 = {
+			isa = PBXGroup;
+			children = (
+				BFF2001F27A78E310093DC37 /* ARLogi */,
+				BFF2003027A78E330093DC37 /* ARLogiTests */,
+				BFF2003A27A78E330093DC37 /* ARLogiUITests */,
+				BFF2001E27A78E310093DC37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF2001E27A78E310093DC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2001D27A78E310093DC37 /* ARLogi.app */,
+				BFF2002D27A78E330093DC37 /* ARLogiTests.xctest */,
+				BFF2003727A78E330093DC37 /* ARLogiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF2001F27A78E310093DC37 /* ARLogi */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2004A27A796CD0093DC37 /* AR */,
+				BFF2002427A78E320093DC37 /* Assets.xcassets */,
+				BF9A66F927A7A882005DC756 /* Object */,
+				BFF2002627A78E320093DC37 /* Preview Content */,
+			);
+			path = ARLogi;
+			sourceTree = "<group>";
+		};
+		BFF2002627A78E320093DC37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2002727A78E320093DC37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFF2003027A78E330093DC37 /* ARLogiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2003127A78E330093DC37 /* ARLogiTests.swift */,
+			);
+			path = ARLogiTests;
+			sourceTree = "<group>";
+		};
+		BFF2003A27A78E330093DC37 /* ARLogiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2003B27A78E330093DC37 /* ARLogiUITests.swift */,
+				BFF2003D27A78E330093DC37 /* ARLogiUITestsLaunchTests.swift */,
+			);
+			path = ARLogiUITests;
+			sourceTree = "<group>";
+		};
+		BFF2004A27A796CD0093DC37 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2002027A78E310093DC37 /* ARLogiApp.swift */,
+				BFF2002227A78E310093DC37 /* ContentView.swift */,
+				BF76EF7427A8B9F3004DAE48 /* AVContainerView.swift */,
+				BF9A675A27A7A921005DC756 /* Resources */,
+				BFF2004B27A796CD0093DC37 /* ViewModel */,
+				BFF2005127A796CD0093DC37 /* Settings */,
+				BFF2005627A796CD0093DC37 /* View */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		BFF2004B27A796CD0093DC37 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2004C27A796CD0093DC37 /* CustomARView.swift */,
+				BFF2004D27A796CD0093DC37 /* SessionSettings.swift */,
+				BFF2004E27A796CD0093DC37 /* ARViewContainer.swift */,
+				BFF2004F27A796CD0093DC37 /* DeletionManager.swift */,
+				BFF2005027A796CD0093DC37 /* PlacementSettings.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFF2005127A796CD0093DC37 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2005227A796CD0093DC37 /* SettingsView.swift */,
+				BFF2005327A796CD0093DC37 /* Model */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		BFF2005327A796CD0093DC37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF7961B327AB42270012DD45 /* SceneManager.swift */,
+				BFF2005427A796CD0093DC37 /* ModelSettings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF2005627A796CD0093DC37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A675527A7A897005DC756 /* Scene3D.swift */,
+				BFF2005727A796CD0093DC37 /* BrowseView.swift */,
+				BFF2005827A796CD0093DC37 /* PlacementView.swift */,
+				BFF2005927A796CD0093DC37 /* DeletionView.swift */,
+				BFF2005A27A796CD0093DC37 /* CollectionDetailView.swift */,
+				BFF2005B27A796CD0093DC37 /* ControlView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF2001C27A78E310093DC37 /* ARLogi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF2004127A78E330093DC37 /* Build configuration list for PBXNativeTarget "ARLogi" */;
+			buildPhases = (
+				BFF2001927A78E310093DC37 /* Sources */,
+				BFF2001A27A78E310093DC37 /* Frameworks */,
+				BFF2001B27A78E310093DC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARLogi;
+			packageProductDependencies = (
+				BF9A675827A7A8F4005DC756 /* FocusEntity */,
+			);
+			productName = ARLogi;
+			productReference = BFF2001D27A78E310093DC37 /* ARLogi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF2002C27A78E330093DC37 /* ARLogiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF2004427A78E330093DC37 /* Build configuration list for PBXNativeTarget "ARLogiTests" */;
+			buildPhases = (
+				BFF2002927A78E330093DC37 /* Sources */,
+				BFF2002A27A78E330093DC37 /* Frameworks */,
+				BFF2002B27A78E330093DC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF2002F27A78E330093DC37 /* PBXTargetDependency */,
+			);
+			name = ARLogiTests;
+			productName = ARLogiTests;
+			productReference = BFF2002D27A78E330093DC37 /* ARLogiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFF2003627A78E330093DC37 /* ARLogiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF2004727A78E330093DC37 /* Build configuration list for PBXNativeTarget "ARLogiUITests" */;
+			buildPhases = (
+				BFF2003327A78E330093DC37 /* Sources */,
+				BFF2003427A78E330093DC37 /* Frameworks */,
+				BFF2003527A78E330093DC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF2003927A78E330093DC37 /* PBXTargetDependency */,
+			);
+			name = ARLogiUITests;
+			productName = ARLogiUITests;
+			productReference = BFF2003727A78E330093DC37 /* ARLogiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF2001527A78E310093DC37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BFF2001C27A78E310093DC37 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BFF2002C27A78E330093DC37 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BFF2001C27A78E310093DC37;
+					};
+					BFF2003627A78E330093DC37 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BFF2001C27A78E310093DC37;
+					};
+				};
+			};
+			buildConfigurationList = BFF2001827A78E310093DC37 /* Build configuration list for PBXProject "ARLogi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF2001427A78E310093DC37;
+			packageReferences = (
+				BF9A675727A7A8F4005DC756 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = BFF2001E27A78E310093DC37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF2001C27A78E310093DC37 /* ARLogi */,
+				BFF2002C27A78E330093DC37 /* ARLogiTests */,
+				BFF2003627A78E330093DC37 /* ARLogiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF2001B27A78E310093DC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9A674E27A7A883005DC756 /* biora.usdz in Resources */,
+				BF9A674527A7A882005DC756 /* dreamer.mp3 in Resources */,
+				BF9A674727A7A882005DC756 /* forest.mp3 in Resources */,
+				BF9A674427A7A882005DC756 /* ncs.mp3 in Resources */,
+				BFF2002827A78E320093DC37 /* Preview Assets.xcassets in Resources */,
+				BF9A675027A7A883005DC756 /* bubalus.usdz in Resources */,
+				BF9A674627A7A882005DC756 /* jungleDrum.mp3 in Resources */,
+				BF9A673B27A7A882005DC756 /* basal.usdz in Resources */,
+				BF9A673927A7A882005DC756 /* belerang.usdz in Resources */,
+				BF9A673027A7A882005DC756 /* dasit.usdz in Resources */,
+				BF9A673127A7A882005DC756 /* batuApung.usdz in Resources */,
+				BF9A673427A7A882005DC756 /* amethyst.usdz in Resources */,
+				BF9A673E27A7A882005DC756 /* azurite.usdz in Resources */,
+				BF9A673727A7A882005DC756 /* andesit.usdz in Resources */,
+				BF9A674F27A7A883005DC756 /* tRex.usdz in Resources */,
+				BF9A676227A7A921005DC756 /* dataBatu.json in Resources */,
+				BF9A674A27A7A882005DC756 /* badak.usdz in Resources */,
+				BFF2002527A78E320093DC37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2002B27A78E330093DC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2003527A78E330093DC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF2001927A78E310093DC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF2002327A78E310093DC37 /* ContentView.swift in Sources */,
+				BFF2006627A796CD0093DC37 /* DeletionView.swift in Sources */,
+				BFF2006227A796CD0093DC37 /* ModelSettings.swift in Sources */,
+				BF9A676127A7A921005DC756 /* ModelBatuData.swift in Sources */,
+				BFF2006527A796CD0093DC37 /* PlacementView.swift in Sources */,
+				BFF2006827A796CD0093DC37 /* ControlView.swift in Sources */,
+				BFF2006127A796CD0093DC37 /* SettingsView.swift in Sources */,
+				BFF2006027A796CD0093DC37 /* PlacementSettings.swift in Sources */,
+				BF9A676327A7A921005DC756 /* Koleksi.swift in Sources */,
+				BFF2005F27A796CD0093DC37 /* DeletionManager.swift in Sources */,
+				BFF2006327A796CD0093DC37 /* Model.swift in Sources */,
+				BFF2005D27A796CD0093DC37 /* SessionSettings.swift in Sources */,
+				BFF2006727A796CD0093DC37 /* CollectionDetailView.swift in Sources */,
+				BFF2006427A796CD0093DC37 /* BrowseView.swift in Sources */,
+				BF7961B427AB42270012DD45 /* SceneManager.swift in Sources */,
+				BFF2005C27A796CD0093DC37 /* CustomARView.swift in Sources */,
+				BF9A675627A7A897005DC756 /* Scene3D.swift in Sources */,
+				BF76EF7527A8B9F3004DAE48 /* AVContainerView.swift in Sources */,
+				BFF2002127A78E310093DC37 /* ARLogiApp.swift in Sources */,
+				BFF2005E27A796CD0093DC37 /* ARViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2002927A78E330093DC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF2003227A78E330093DC37 /* ARLogiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2003327A78E330093DC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF2003E27A78E330093DC37 /* ARLogiUITestsLaunchTests.swift in Sources */,
+				BFF2003C27A78E330093DC37 /* ARLogiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF2002F27A78E330093DC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF2001C27A78E310093DC37 /* ARLogi */;
+			targetProxy = BFF2002E27A78E330093DC37 /* PBXContainerItemProxy */;
+		};
+		BFF2003927A78E330093DC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF2001C27A78E310093DC37 /* ARLogi */;
+			targetProxy = BFF2003827A78E330093DC37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFF2003F27A78E330093DC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF2004027A78E330093DC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF2004227A78E330093DC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARLogi/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ARLogi need access to implement AR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = byson.ARLogi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BFF2004327A78E330093DC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARLogi/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ARLogi need access to implement AR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = byson.ARLogi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BFF2004527A78E330093DC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bysonz.ARLogiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARLogi.app/ARLogi";
+			};
+			name = Debug;
+		};
+		BFF2004627A78E330093DC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bysonz.ARLogiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARLogi.app/ARLogi";
+			};
+			name = Release;
+		};
+		BFF2004827A78E330093DC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bysonz.ARLogiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARLogi;
+			};
+			name = Debug;
+		};
+		BFF2004927A78E330093DC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bysonz.ARLogiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARLogi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF2001827A78E310093DC37 /* Build configuration list for PBXProject "ARLogi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF2003F27A78E330093DC37 /* Debug */,
+				BFF2004027A78E330093DC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF2004127A78E330093DC37 /* Build configuration list for PBXNativeTarget "ARLogi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF2004227A78E330093DC37 /* Debug */,
+				BFF2004327A78E330093DC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF2004427A78E330093DC37 /* Build configuration list for PBXNativeTarget "ARLogiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF2004527A78E330093DC37 /* Debug */,
+				BFF2004627A78E330093DC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF2004727A78E330093DC37 /* Build configuration list for PBXNativeTarget "ARLogiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF2004827A78E330093DC37 /* Debug */,
+				BFF2004927A78E330093DC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF9A675727A7A8F4005DC756 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF9A675827A7A8F4005DC756 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF9A675727A7A8F4005DC756 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BFF2001527A78E310093DC37 /* Project object */;
+}
